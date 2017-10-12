@@ -1,0 +1,386 @@
+##########common######
+system_name=运维管理平台
+tips=温馨提示
+no_data=没有相关查询数据
+search=查询
+query_item=查询选项
+item=选项
+condition=条件
+result=结果
+vr_tips=错误信息
+##########
+##########login######
+user_name=用户名
+pass_word=密码
+remember_me=下次自动登录
+login_in=登录
+id_empty=用户名不能为空
+pw_empty=密码不能为空
+id_pw_error=用户名或密码错误
+login_fail=登录失败
+login_success=登录成功
+login_out=登出系统
+##########
+##########main.jsp######
+toggle_naviga=显示/隐藏 导航栏
+change_lan=更改系统语言
+home=首页
+setting=系统设置
+change_pwd=更改登录密码
+server=引擎管理
+manage_server=管理引擎
+monitor_server=引擎监控
+add_server=添加引擎
+user=人员管理
+manage_user=管理人员
+manager=管理员
+
+agent=代理
+manage_agent=管理代理
+add_agent=添加代理
+rule=授权策略
+manage_rule=管理策略
+add_rule=添加策略
+report=报表分析
+examinee=考生
+manage_examinee=管理考生
+add_examinee=添加考生
+#exampoint=考场
+#manage_exampoint=管理考场
+#add_exampoint=添加考场
+#invigilator=监考老师
+#manage_invigilator=管理监考老师
+#add_invigilator=添加监考老师
+subject=考试科目
+manage_subject=管理考试科目
+add_subject=添加考试科目
+app=应用
+manage_app=管理应用
+add_app=发布应用
+log=日志管理
+system_log=查看系统日志
+bus_log=查看业务日志
+exam_log=查看考试验证日志
+admin=管理员
+manage_admin=管理管理员
+add_admin=添加管理员
+role=角色
+manage_role=管理角色
+add_role=添加角色
+code=数据字典
+manage_code=管理数据字典
+add_code=添加数据字典
+parameter_set=参数设置
+email_set=邮件设置
+##########
+
+
+###system start############
+##-code start#############
+#--addCode.jsp start#####
+system_code_codeName=字典名称
+system_code_codeNameFormat=非有效的字典名称，只能包含：字母，数字，汉字和下划线，不能以下划线开头和结尾
+system_code_codeID=字典编码
+system_code_codeIDFormat=非有效的字典编码，只能包含：数字和字母
+system_code_codeType=字典类型
+system_code_require=此项目为必选项
+system_code_choose=选择
+system_code_codeStat=字典状态
+system_code_enable=可用
+system_code_disable=停用
+system_code_codeDescription=字典描述
+system_code_update=修改
+system_code_add=添加
+system_code_reset=重置
+system_code_crateDateTime=创建时间
+
+#--addCode.jsp end#######
+#--queryCode.jsp start#####
+system_code_description=描述
+system_code_stat=状态
+system_code_action=操作
+###----page js##
+system_code_sProcessing=正在加载数据，请稍后
+###----page js##
+#--queryCode.jsp end#######
+##-code end###############
+
+##-manger start#############
+#--addManager.jsp start#####
+system_manager_addSystemManager=添加系统管理员
+system_manager_mangerAcount=账号
+system_manager_mangerAcountFormat=非有效的账号，只能包含：数字和字母
+system_manager_mangerPassword=密码
+system_manager_role=角色
+system_manager_changePassword=更改密码
+system_manager_lastLoginTime=最近一次登录
+#--addManager.jsp end#######
+
+#--changePassword.jsp start#####
+system_manager_manager=管理员
+system_manager_newPassword=新密码
+system_manager_confirmNewPassword=确认新密码
+system_manager_reSetPasswordNotMatch=前后两次输入的密码不一致
+system_manager_commit=提交
+#--changePassword.jsp end#######
+
+#--queryManager.jsp start#####
+system_manager_roleDescription=角色描述
+system_manager_managementManager=管理系统管理员
+#--queryManager.jsp end#######
+##-manger end###############
+##-parameter start#############
+#--addParameter.jsp start#####
+system_parameter_warmPrompt=温馨提示
+system_parameter_warmPromptMsg=请慎重修改系统参数，更改参数以后需要重启对应的模块，更改的配置才能生效
+system_parameter_updateSystemParameter=修改系统参数
+system_parameter_applicationMark=应用标示
+system_parameter_systemMoudule=系统模块
+system_parameter_compareEngine=比对引擎
+system_parameter_supportSystem=支撑系统
+system_parameter_parameterItem=参数项
+system_parameter_parameterValue=参数值
+#--addParameter.jsp end#######
+#--queryParameter.jsp start#####
+system_parameter_parameterName=参数名称
+system_parameter_setParameter=参数设置
+system_parameter_operatingSystemParameters=运维系统参数
+system_parameter_canUpdate=能否修改
+#--queryParameter.jsp end#######
+##-parameter end###############
+##-role start#############
+#--addRole.jsp start#####
+system_role_roleName=角色名称
+system_role_roleNameFormat=非有效的角色名称，只能包含：字母，数字，汉字和下划线，不能以下划线开头和结尾
+system_role_allotRight=分配权限
+
+#--addRole.jsp end#######
+#--queryRole.jsp start#####
+system_role_managerRole=管理角色
+#--queryRole.jsp end#######
+##-role end###############
+###system end############
+
+###person start############
+##-queryPerson.jsp start#############
+person_detailKey = 中间名,本国语言姓名,中文名,身份证件号码,数据来源,采集机构,采集人
+person_managerVisoUser=管理签证人员
+person_filterItem=筛选项
+person_visoUser=签证人员
+person_certificateID=证件号
+person_fingerScanNum=指纹编号
+person_birthday=出生日期
+person_nationCode=国籍编码
+person_inLibaryTime=入库时间
+person_all=全部
+person_userID=人员编号
+person_familyName=姓
+person_userName=名
+person_sex=性别
+##-queryPerson.jsp end###############
+###person end############
+
+###log start############
+
+##-queryBusLog.jsp start###############
+log_queryBusLog=查询业务日志
+log_detailKey=回执号,客户端IP,业务内容
+log_busLog=业务日志
+log_busID=业务码
+log_busResult=业务结果
+log_busResultID=业务返回码
+log_actionTime=操作时间
+log_busType=业务类型
+log_busResultMsg=业务返回信息
+##-queryBusLog.jsp end###############
+##-querySysLog.jsp start#############
+log_executor=操作者
+log_querySysLog=查询系统日志
+log_sysLog=系统日志
+log_logType=日志类型
+log_logContent=日志内容
+##-querySysLog.jsp end###############
+###log start############
+###engine start############
+##-addEngine.jsp start#############
+engine_masterNodeName=主控节点名
+engine_masterNode=主控节点
+engine_masterNodeNameFormat=非有效的主控节点名，只能包含：数字和字母
+engine_engineNodeName=引擎节点名
+engine_engineType=引擎类别
+engine_engineNode=引擎节点
+engine_biologicalRecognitionModel=生物识别模态
+engine_finger=指纹
+engine_face=人脸
+engine_iris=虹膜
+engine_venaDigitails=指静脉
+engine_registerThreadNum=注册线程
+engine_registerThreadNumMsg=需要根据服务器配置设置合适的值，太大和太小都会影响引擎进行指纹注册的性能
+engine_1to1ThreadNum=1:1 线程数
+engine_1to1ThreadNumMsg=需要根据服务器配置设置合适的值，太大和太小都会影响引擎进行1：1比对的性能
+engine_1toNThreadNum=1:N 线程数
+engine_1toNThreadNumMsg=需要根据服务器配置设置合适的值，太大和太小都会影响引擎进行1：N比对的性能
+engine_dataModuleList=数据块列表
+engine_dataModuleListErrorMsg=错误：非有效的数据块列表，只能包含：数字和逗号，不能以逗号开头和结尾
+engine_dataModuleListInfoMsg=说明：取模运算后的数据块列表，可以设多个数据块，用逗号(英文输入法)分隔,示例：0,1
+##-addEngine.jsp end###############
+##-queryEngine.jsp start#############
+engine_fingerEngineList=指纹引擎列表
+engine_fingerEngineInfo=指纹引擎信息
+engine_updateEngineInfo=修改引擎信息
+engine_deleteEngineInfo=删除引擎节点
+engine_ipAddress=IP地址
+engine_macAddress=MAC地址
+engine_serverPort=服务端口
+engine_cpuCoreNum=CPU核数
+engine_core=核
+engine_operationStat=运行状态
+engine_normal=正常
+engine_warning=预警
+engine_fault=故障
+engine_networkStat=网络状态
+engine_networkClear=通畅
+engine_networkNotWork=不通
+engine_loadFingerScanNum=加载指纹数量
+engine_1to1CompareThreadNum=1：1 比对线程数
+engine_1toNCompareThreadNum=1：N 比对线程数
+engine_enum=枚
+engine_operationTimeLong=已运行时长
+engine_cpuUseRate=CPU使用率
+engine_unitPercent=单位 : 百分比
+engine_time=时间
+engine_diskSpaceUseRate=硬盘空间使用率
+engine_memoryUseRate=内存使用率
+engine_physicalInfo=物理信息
+
+##-queryEngine.jsp end###############
+###engine start############
+
+###common start############
+##-404.html start#############
+
+##-404.html end###############
+##-500.html start#############
+
+##-500.html end###############
+
+##-content.jsp start#############
+common_fingerScanNumInLibary=在库的指纹数
+common_userNumInLibary=在库的人员数
+common_engineNumOnLine=在线的引擎数
+common_businessNumToday=今天的业务数
+common_fingerLibIncreaseTendencyThisMonth=指纹库增长趋势图(本月)
+common_businessTypeDistributeTendencyThisMonth=业务类型分布趋势图(本月)
+common_engineStat=引擎状态
+common_taskStat=任务状态
+##common_businessFaultRate=业务失败率
+common_taskStatistics=业务统计
+common_latelyLogInfo=最近的日志信息
+
+##-content.jsp end###############
+
+##-lockScreen.jsp start#############
+
+##-lockScreen.jsp end###############
+common_systemLocked=系统已锁定
+##-login.jsp start#############
+
+##-login.jsp end###############
+##-timeout.jsp start#############
+
+##-timeout.jsp end###############
+###common start############
+
+
+
+#######java Code start###########
+java_baseController_systemWarn=系统警告信息
+java_baseController_nullException=此次操作出现空指针异常！
+
+java_codeController_addSuccess=添加成功
+java_codeController_updateSuccess=修改成功
+java_codeController_addFailedReason=添加失败,失败原因:
+java_codeController_beloongToCodeType=所属数据字典类型为
+java_codeController_deleteSuccess=删除成功
+
+java_commonController_loginAcountIsDisable=该登录账号已被管理员停用
+java_commonController_loginFailedReason=登录失败，原因
+java_commonController_pageTimeOutLockPage=页面超时,锁屏界面
+java_commonController_refuseVisit=拒绝访问
+java_commonController_fingerprintRegister=指纹注册
+java_commonController_fingerprintCompare=指纹比对
+java_commonController_fingerprintExport=指纹导出
+java_commonController_fingerprintSelect=指纹查重
+java_commonController_fingerprintImport=指纹导入
+java_commonController_fingerprintLogout=指纹注销
+
+java_engineController_underMasterNodeEngine1=主控节点
+java_engineController_underMasterNodeEngine2=下的比对引擎
+
+java_logController_queryBusLogTable=查询业务日志表
+
+java_managerController_queryAdminList=查询管理员列表
+java_managerController_updateAdminPassword1=修改管理员
+java_managerController_updateAdminPassword2=密码成功
+
+java_roleController_querySystemRoleList=查询系统角色列表
+
+java_paramController_querySystemParamList=查询系统参数列表
+java_paramController_systemParamterUpdateSuccess1=系统参数
+java_paramController_systemParamterUpdateSuccess2=修改成功
+
+java_engineNodeService_addEngineInfoNotComplete=需要添加的引擎信息不完整
+java_engineNodeService_engineNodeIsExist=此引擎节点已经存在
+java_engineNodeService_updateEngineInfoNotComplete=需要修改的引擎信息不完整
+java_engineNodeService_compareEngineDataException=比对引擎数据异常，比对引擎信息与引擎节点信息存在不一致
+java_engineNodeService_compareEngineIsDeleted=该比对引擎已经被删除
+
+java_busLogDao_nullData=无数据
+#######java Code end###########
+
+
+#######js Code start#######
+js_allotRightInfo=请分配权限信息
+js_success=成功
+js_failed=失败
+js_deleteItem=您确定要删除此项目吗？
+
+######## page js start #####
+jspage_content_date=日期
+jspage_content_number=数量
+jspage_content_fingerprintIncreaseNum=指纹增长数量
+#日期中的天
+jspage_content_day=号
+jspage_content_day2=号
+jspage_content_num=个
+jspage_content_num2=个
+jspage_content_busType=业务类型
+jspage_content_waitDispose=等待处理
+jspage_content_finish=完成
+jspage_content_disposing=处理中
+jspage_content_fingerprintCompareNumToday=今天的指纹比对数量
+#时间几点
+jspage_content_hour=点
+jspage_content_hour21=点
+jspage_content_hour2=小时
+jspage_content_times=次
+jspage_content_times2=次
+jspage_content_1toNCompareNum=1:N 指纹比对数量
+jspage_content_1to1CompareNum=1:1 指纹比对数量
+jspage_content_total=总量
+######## page js end   #####
+#######js Code end#########
+
+####### other start ########
+######## echart start #####
+echarts_noData=暂无数据
+echarts_saveAsImage_title=保存为图片
+echarts_switchToLine_title=切换为折线图
+echarts_switchTobar_title=切换为柱状图
+echarts_switchToStack_title=切换为堆叠
+echarts_switchToTiled_title=切换为平铺
+echarts_restore=还原
+
+######## echart end   #####
+####### other end #########
+
